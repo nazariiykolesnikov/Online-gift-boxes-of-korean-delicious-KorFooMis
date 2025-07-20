@@ -26,25 +26,26 @@
                             <a class="nav-link" aria-current="page" href="index.php">Головна</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./pages/shop.php">Магазин смаколиків</a>
+                            <a class="nav-link" aria-current="page" href="../pages/shop.php">Магазин</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./pages/account.php">Мій аккаунт</a>
+                            <a class="nav-link" aria-current="page" href="../pages/tasks.php">Завдання</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./pages/contact.php">Наші контакти</a>
+                            <a class="nav-link" aria-current="page" href="../pages/account.php">Мій аккаунт</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./pages/login.php">Авторизуватися</a>
+                            <a class="nav-link" aria-current="page" href="../pages/contact.php">Контакти</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/login.php">Авторизуватися</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./pages/register.php">Реєстрація</a>
+                            <a class="nav-link" aria-current="page" href="../pages/register.php">Реєстрація</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./pages/cart.html"><img class="nav-item__basket_icon" src="./assets/images/basket/basket.png" alt="Header Basket Icon" /></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./pages/cart.html"><img class="nav-item__basket_icon" src="./assets/images/user/user.png" alt="Header User Icon" /></a>
+                            <a href="../pages/cart.php"><i class="fa-solid fa-truck-fast"></i></a>
+                            <a href="../pages/account.php"><i class="fas fa-user"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -54,104 +55,15 @@
     <main>
         <section id="home">
             <div class="container">
-                <h5 class="home-section__preface">Робіть добро — отримуйте за це смачні подарунки !</h5>
+                <p class="home-section__preface">Робіть добро — отримуйте за це смачні подарунки !</p>
                 <h1 class="home-section__main-header">
-                    <span>Допомагайте іншим</span> і накопичуйте бали — обмінюйте їх на корейські смаколики !
+                    <span>Виконуйте цікаві завдання</span>, допомагайте іншим людям і накопичуйте за це бали — обмінюйте їх на подарунки та смаколики !
                 </h1>
                 <p class="home-section__paragraph">
                     У нас Ви можете заробляти бонуси, виконуючи добрі справи: допомагати оточуючим, беручи участь у корисних ініціативах та 
                     просто змінювати світ на краще. Ваші дії — це не лише кроки до позитивних змін, а й можливість отримати подарунки !
                 </p>
-                <button class="home-section__button"><i class="fa fa-gift" aria-hidden="true"></i> Заробити бали та отримати смачні подарунки</button>
-            </div>
-        </section>
-        <div class="text-center">
-            <h3>НОВИНКИ СМАКОЛИКІВ</h3>
-            <hr class="mx-auto" />
-        </div>
-        <!-- Thank You Very Much For This Great Image Slider @dwiismantoyuwono (https://codepen.io/dwiismantoyuwono) -->
-        <section>
-            <div class="scroll-container">
-                <div id="InfiniteScrollWrapper" class="infinite-scroll-wrapper">
-                    <div id="InfiniteScroll" class="infinite-scroll-content">
-                        <div class="infinite-scroll-items">
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/zhele-vynograd.jpg -->
-                                <img src="./assets/images/new_goods/new_goods_1.jpg" alt="New goods item #1" />
-                                <span class="text">Желе виноград "Jellycious"<br /> (60 грам), "Grape"</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/chokopay-zeleniy-chay-336gr-400x400.jpeg -->
-                                <img src="./assets/images/new_goods/new_goods_2.jpg" alt="New goods item #2" />
-                                <span class="text">Десерт з бісквітного печива<br /> "Choco Pie Green Tea" (12 штук), "Lotte"</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/peperowhite.png -->
-                                <img src="./assets/images/new_goods/new_goods_3.jpg" alt="New goods item #3" />
-                                <span class="text">Соломка у білому шоколаді<br /> "Pepero White cookie" (32 грами), "Lotte"</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.soju-korea.com.ua/wp-content/uploads/sodzhu-slyva.jpg -->
-                                <img src="./assets/images/new_goods/new_goods_4.jpg" alt="New goods item #4" />
-                                <span class="text">Напій соджу зі смаком сливи<br /> "Soju Plum" (360 мл)</span>
-                            </div>
-                            <div class="item-wrap">
-                                <img src="./assets/images/new_goods/new_goods_5.jpg" alt="New goods item #5" />
-                                <span class="text">Рамьон зі смаком сиру<br /> середньогострий "Stir-Fried<br /> Cheese Ramen" (120 грам), "Ottogi"</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/729162.jpg -->
-                                <img src="./assets/images/new_goods/new_goods_6.jpg" alt="New goods item #6" />
-                                <span class="text">Кімчі класичні<br /> (Yokimchi Sliced Kimchi)<br /> (160 грам), "Yopokki"</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/maknalty-ssanhva-chaj-765x1024.jpg -->
-                                <img src="./assets/images/new_goods/new_goods_7.jpg" alt="New goods item #7" />
-                                <span class="text">Чай Ссанхва без цукру зі стевіею<br /> "Stevia Zero Sugar Ssanghwa Tea"<br /> (450 грам (15 грам * 30 шт)), "McNulty"</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/amerykano-chernyyj.png -->
-                                <img src="./assets/images/new_goods/new_goods_8.jpg" alt="New goods item #8" />
-                                <span class="text">Напій кавовий "Café Mcnulty<br /> Ice Americano Black" (190 мл)</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/zhele-muskat.jpg -->
-                                <img src="./assets/images/new_goods/new_goods_9.jpg" alt="New goods item #9" />
-                                <span class="text">Желе зелений виноград<br /> "Jellycious" (72 грам), "Muscat"</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/kastard-e1711200569143.jpg -->
-                                <img src="./assets/images/new_goods/new_goods_10.jpg" alt="New goods item #10" />
-                                <span class="text">Кастард "Custard"<br /> (6 штук / 138 грам)</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/udon-276g.jpg -->
-                                <img src="./assets/images/new_goods/new_goods_11.jpg" alt="New goods item #11" />
-                                <span class="text">Удон "Udon" (276 грам)</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/rysova-lokshyna-kimchi.jpg -->
-                                <img src="./assets/images/new_goods/new_goods_12.jpg" alt="New goods item #12" />
-                                <span class="text">Рисова локшина зі смаком кімчі<br /> "Rice Noodle (Kimchi Flavour)"<br /> (92 грами)</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/tokpoky-karbonara.png -->
-                                <img src="./assets/images/new_goods/new_goods_13.jpg" alt="New goods item #13" />
-                                <span class="text">Токпокі зі смаком карбонара в стакані<br /> "Yopokki Carbonara Topokki Cup"<br /> (120 грам)</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/chokopaj-kakao-6sht.jpg -->
-                                <img src="./assets/images/new_goods/new_goods_14.jpg" alt="New goods item #14" />
-                                <span class="text">Чокопай какао "ChocoPie Cacao<br /> (6 штук), "Lotte"</span>
-                            </div>
-                            <div class="item-wrap">
-                                <!-- Image Source : https://www.smak-korea.com.ua/wp-content/uploads/blu-lymonad.png -->
-                                <img src="./assets/images/new_goods/new_goods_15.jpg" alt="New goods item #15" />
-                                <span class="text">Напій "Café Mcnulty Blue<br /> lemon Ade" (190 мл)</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <button class="home-section__button">Заробити бали та отримати смачні подарунки</button>
             </div>
         </section>
         <section id="shoes" class="my-5">
@@ -450,6 +362,55 @@
                 </div>
             </div>
         </section>
+        <!-- Thank You Very Much For This Great Image Slider @dwiismantoyuwono (https://codepen.io/dwiismantoyuwono) -->
+            <div class="text-center">
+                <h3>НОВИНКИ СМАКОЛИКІВ</h3>
+                <hr class="mx-auto" />
+            </div>
+            <div class="snip1295-container">
+                <figure class="snip1295"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample67.jpg" alt="sample67"/>
+                    <div class="border one">
+                        <div></div>
+                    </div>
+                    <div class="border two">
+                        <div></div>
+                    </div><a href="#"></a>
+                </figure>
+                <figure class="snip1295"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample84.jpg" alt="sample84"/>
+                    <div class="border one">
+                        <div></div>
+                    </div>
+                    <div class="border two">
+                        <div></div>
+                    </div><a href="#"></a>
+                </figure>
+                <figure class="snip1295"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample68.jpg" alt="sample68"/>
+                    <div class="border one">
+                        <div></div>
+                    </div>
+                    <div class="border two">
+                        <div></div>
+                    </div><a href="#"></a>
+                </figure>
+                <figure class="snip1295"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample68.jpg" alt="sample68"/>
+                    <div class="border one">
+                        <div></div>
+                    </div>
+                    <div class="border two">
+                        <div></div>
+                    </div><a href="#"></a>
+                </figure>
+                <figure class="snip1295"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample68.jpg" alt="sample68"/>
+                    <div class="border one">
+                        <div></div>
+                    </div>
+                    <div class="border two">
+                        <div></div>
+                    </div><a href="#"></a>
+                </figure>
+            </div>
+        <section>
+        </section>
         <section id="new" class="w-100">
             <div>
                 <h4 class="container text-center">МАЙЖЕ ЗАКІНЧИЛИСЯ</h4>
@@ -481,17 +442,7 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="banner-messages py-5 my-5">
-            <div class="container">
-                <div>
-                    <h4>Не стійте осторонь - допомагайте іншим чим маєте змогу !</h4><br />
-                    <h3>Приєднуйтесь до нас і <br /> допомагайте робити наше суспільство ще кращим !</h1><br />
-                    <h2>У Ваших руках зробити його кращим !</h2><br />
-                    <button>Приєднуйтесь до нас !</button>
-                </div>
-            </div>
-        </section>
+        </section>    
     </main>
     <footer class="mt-5 py-5">
         <div class="row container mx-auto pt-5">
@@ -548,7 +499,7 @@
                     <p>Крабничка корейських смаколиків <br />"KorFooMis" @2025 Nazarii Kolesnikov <br />Усі права захищено.</p>
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-12 mb-4">
-                    <a href="#"><i class="fa-brands fa-square-threads"></i></a> 
+                    <a href="#"><i class='fab fa-whatsapp'></i></a> 
                     <a href="#"><i class="fab fa-facebook"></i></a> 
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-telegram"></i></a>
