@@ -25,37 +25,44 @@
     <title>Сторінка товару</title>
 </head>
 <body>
-    <header>
+      <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
-            <h2 class="brand">LoremIpsum</h2>
-            <div class="container-fluid">
-                <img src="../assets/images/logo/logo.png" alt="Logo" class="navbar-brand" style="width: 80px; height: 90px;" />
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container-fluid d-flex align-items-center justify-content-between flex-wrap">
+                <div class="d-flex align-items-center brand-logo">
+                    <img src="./assets/images/logo/logo.png" alt="Logo" class="navbar-logo" />
+                    <h2 class="brand mb-0 ms-2">KorFooMis</h2>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse nav-buttons" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse nav-buttons mt-3 mt-lg-0" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.php">Головна</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="shop.php">Shop</a>
+                            <a class="nav-link" aria-current="page" href="../pages/shop.php">Магазин</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="account.php">Account</a>
+                            <a class="nav-link" aria-current="page" href="../pages/tasks.php">Завдання</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contact.php">Contact Us</a>
+                            <a class="nav-link" aria-current="page" href="../pages/account.php">Мій аккаунт</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="login.php">Login</a>
+                            <a class="nav-link" aria-current="page" href="../pages/contact.php">Контакти</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/login.php">Авторизуватися</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="register.php">Register</a>
+                            <a class="nav-link" aria-current="page" href="../pages/register.php">Реєстрація</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./pages/cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
-                            <a href="account.html"><i class="fas fa-user"></i></a>
+                            <a href="../pages/cart.php"><i class="fa-solid fa-truck-fast"></i></a>
+                            <a href="../pages/account.php"><i class="fas fa-user"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -105,56 +112,59 @@
     <footer class="mt-5 py-5">
         <div class="row container mx-auto pt-5">
             <div class="footer-one col-lg-3 col-md-6 col-sm-12">
-                <img class="logo" src="../assets/images/logo/logo.png" alt="Logo" />
-                <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <img class="footer-one__logo" src="../assets/images/logo/logo.png" alt="Logo" />
+                <p class="pt-3">Робіть добро — отримуйте за це смачні подарунки ! Допомагайте іншим і накопичуйте бали — обмінюйте їх на корейські</p>
             </div>
             <div class="footer-one col-lg-3 col-md-6 col-sm-12">
-                <h5 class="pt-2 featured-block">Featured</h5>
+                <h5 class="pt-2 featured-block">Категорії</h5>
                 <ul class="text-uppercase">
-                    <li><a href="#">men</a></li>
-                    <li><a href="#">woman</a></li>
-                    <li><a href="#">boys</a></li>
-                    <li><a href="#">girls</a></li>
-                    <li><a href="#">new arrivals</a></li>
-                    <li><a href="#">clothes</a></li>
+                    <li><a href="#">Снеки (스낵류)</a></li>
+                    <li><a href="#">Рамьон та Локшина (라면, 면류)</a></li>
+                    <li><a href="#">Водорості та сушені продукти<br /> (김, 해초, 건어물, 건채소)</a></li>
+                    <li><a href="#">Соджу (소주)</a></li>
+                    <li><a href="#">Напої (차, 음료)</a></li>
+                    <li><a href="#">Соуси & Спеції (소스, 조미료, 장류)</a></li>
+                    <li><a href="#">Рис та Полуфабрикати з рису<br /> (쌀, 떡류)</a></li>
+                    <li><a href="#">Консервовані та мариновані продукти<br /> (캔, 김치, 반찬, 즉석요리)</a></li>
                 </ul>
             </div>
             <div class="footer-one col-lg-3 col-md-6 col-sm-12">
-                <h5 class="pt-2 contact-us">Contact Us</h5>
+                <h5 class="pt-2 contact-us">Наші Контакти</h5>
                 <div>
-                    <h6 class="text-uppercase our-address"><img src="../assets/images/logo/location.png" class="our-address-icon" alt="Logo Image" /> Address</h6>
-                    <p>Ukraine, Rivne, Basivkutska st., 20</p> 
+                    <h6 class="text-uppercase our-address"><i class="fa-solid fa-address-book"></i> Адреса</h6>
+                    <p>Україна, Рівне</p> 
                 </div>
                 <div>
-                    <h6 class="text-uppercase our-mobile-phone"><img src="../assets/images/logo/location.png" class="our-mobile-phone-icon" alt="Logo Image" /> Mobile Phone</h6>
-                    <p>(067)-83-33-023</p>
+                    <h6 class="text-uppercase our-mobile-phone"><i class="fa-solid fa-phone-volume"></i> Мобільний телефон</h6>
+                    <p><a class="our-mobile-phone__link" href="tel:380678333023">(067)-83-33-023</a></p>
                 </div>
                 <div>
-                    <h6 class="text-uppercase our-email"><img src="../assets/images/logo/location.png" class="our-email-icon" alt="Logo Image" /> E-mail</h6>
-                    <p>nazarijkolesnikov053@gmail.com</p> 
+                    <h6 class="text-uppercase our-email"><i class="fa-solid fa-envelope-open-text"></i> Електронна скринька</h6>
+                    <p><a class="our-mobile-phone__link" href="mailto:nazarijkolesnikov053@gmail.com">nazarijkolesnikov053@gmail.com</a></p> 
                 </div>
             </div>
             <div class="footer-one col-lg-3 col-md-6 col-sm-12">
-                <h5 class="pt-2 were-active-on-social-media">We’re active on social media</h5>
-                <div class="row">
-                    <img src="../assets/images/social_networks/facebook.png" class="img-fluid w-25 h-100 m-2" alt="Facebook Image" />
-                    <img src="../assets/images/social_networks/telegram.png" class="img-fluid w-25 h-100 m-2" alt="Telegram Image" />
-                    <img src="../assets/images/social_networks/instagram.png" class="img-fluid w-25 h-100 m-2" alt="Instagram Image" />
-                    <img src="../assets/images/social_networks/threads.png" class="img-fluid w-25 h-100 m-2" alt="Threads Image" />
-                    <img src="../assets/images/social_networks/youtube.png" class="img-fluid w-25 h-100 m-2" alt="Youtube Image" />
-                </div>
+                <h5 class="pt-2 featured-block">Корисна інформація</h5>
+                <ul class="text-uppercase">
+                    <li><a href="#">ІНСТРУКЦІЯ ДЛЯ УЧАСТІ В КОНКУРСІ</a></li>
+                    <li><a href="#">УМОВИ ДОСТАВКИ</a></li>
+                    <li><a href="#">ІНФОРМАЦІЯ ЩОДО ВИРОБНИКІВ</a></li>
+                    <li><a href="#">ОНОВЛЕННЯ ПРОДУКЦІЇ</a></li>
+                    <li><a href="#">РЕФЕРАЛЬНА ПРОГРАМА</a></li>
+                </ul>
             </div>
         </div>
         <div class="copyright mt-5">
             <div class="row container mx-auto">
                 <div class="col-lg-3 col-md-5 col-sm-12 mb-4">
-                    <img src="../assets/images/no-payment/no-payment.png" class="img-fluid w-25 h-100" alt="Payment Image" />
+                    <img src="./assets/images/no-payment/no-payment.png" class="img-fluid w-25 h-100" alt="No Payment Image" />
+                    <img src="./assets/images/no-payment/no-money.png" class="img-fluid w-25 h-100" alt="No Payment Image" />
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-12 text-nowrap mb-2">
-                    <p>Ipsum Dolor Sit @2025 All rights receive.</p>
+                    <p>Крабничка корейських смаколиків <br />"KorFooMis" @2025 Nazarii Kolesnikov <br />Усі права захищено.</p>
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-12 mb-4">
-                    <a href="#"><i class="fab fa-threads"></i></a> 
+                    <a href="#"><i class='fab fa-whatsapp'></i></a> 
                     <a href="#"><i class="fab fa-facebook"></i></a> 
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-telegram"></i></a>
