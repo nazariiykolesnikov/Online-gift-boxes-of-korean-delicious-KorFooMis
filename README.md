@@ -1,4 +1,4 @@
-# Online-gift-boxes-of-korean-delicious-KorFooMis
+# Online-shop of gift boxes with korean delisious “KorFooMis” (Non Commercial, Volunteer Project)
 
 It’s a playful and meaningful initiative designed to reward kindness with delicious surprises.
 
