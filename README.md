@@ -1,4 +1,4 @@
-# Online-shop-of-korean-delicious-KorFooMis
+# Online-gift-boxes-of-korean-delicious-KorFooMis
 
 It’s a playful and meaningful initiative designed to reward kindness with delicious surprises.
 
