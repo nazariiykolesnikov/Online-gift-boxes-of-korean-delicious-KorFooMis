@@ -11,11 +11,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <title>Home Page</title>
 <body>
-        <header>
-         <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
             <div class="container-fluid d-flex align-items-center justify-content-between flex-wrap">
                 <div class="d-flex align-items-center brand-logo">
-                    <img src="../assets/images/logo/logo.png" alt="Logo" class="navbar-logo" />
+                    <img src="./assets/images/logo/logo.png" alt="Logo" class="navbar-logo" />
                     <h2 class="brand mb-0 ms-2">KorFooMis</h2>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -26,26 +26,29 @@
                 <div class="collapse navbar-collapse nav-buttons mt-3 mt-lg-0" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index.php">Головна</a>
+                            <a class="nav-link" aria-current="page" href="index.php">Головна</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="shop.php">Магазин смаколиків</a>
+                            <a class="nav-link" aria-current="page" href="../pages/shop.php">Магазин</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="account.php">Мій аккаунт</a>
+                            <a class="nav-link" aria-current="page" href="../pages/tasks.php">Завдання</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="contact.php">Наші контакти</a>
+                            <a class="nav-link" aria-current="page" href="../pages/account.php">Мій аккаунт</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="login.php">Авторизуватися</a>
+                            <a class="nav-link" aria-current="page" href="../pages/contact.php">Контакти</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/login.php">Авторизуватися</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="register.php">Реєстрація</a>
+                            <a class="nav-link" aria-current="page" href="../pages/register.php">Реєстрація</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./pages/cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
-                            <a href="./pages/account.html"><i class="fas fa-user"></i></a>
+                            <a href="../pages/cart.php"><i class="fa-solid fa-truck-fast"></i></a>
+                            <a href="../pages/account.php"><i class="fas fa-user"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -126,7 +129,7 @@
             </div>
         </section>
     </main>
-     <footer class="mt-5 py-5">
+    <footer class="mt-5 py-5">
         <div class="row container mx-auto pt-5">
             <div class="footer-one col-lg-3 col-md-6 col-sm-12">
                 <img class="footer-one__logo" src="../assets/images/logo/logo.png" alt="Logo" />
@@ -174,14 +177,14 @@
         <div class="copyright mt-5">
             <div class="row container mx-auto">
                 <div class="col-lg-3 col-md-5 col-sm-12 mb-4">
-                    <img src="../assets/images/no-payment/no-payment.png" class="img-fluid w-25 h-100" alt="No Payment Image" />
-                    <img src="../assets/images/no-payment/no-money.png" class="img-fluid w-25 h-100" alt="No Payment Image" />
+                    <img src="./assets/images/no-payment/no-payment.png" class="img-fluid w-25 h-100" alt="No Payment Image" />
+                    <img src="./assets/images/no-payment/no-money.png" class="img-fluid w-25 h-100" alt="No Payment Image" />
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-12 text-nowrap mb-2">
                     <p>Крабничка корейських смаколиків <br />"KorFooMis" @2025 Nazarii Kolesnikov <br />Усі права захищено.</p>
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-12 mb-4">
-                    <a href="#"><i class="fab fa-threads"></i></a> 
+                    <a href="#"><i class='fab fa-whatsapp'></i></a> 
                     <a href="#"><i class="fab fa-facebook"></i></a> 
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-telegram"></i></a>
