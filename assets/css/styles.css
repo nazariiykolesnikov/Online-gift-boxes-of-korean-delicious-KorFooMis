@@ -162,11 +162,6 @@ button:hover {
     z-index: 1;
 }
 
-#home .home-section__preface {
-    font-size: 2.3rem;
-    color: rgb(255, 255, 255);
-}
-
 #home .home-section__main-header {
     font-optical-sizing: auto;
     font-weight: 800;
@@ -175,11 +170,11 @@ button:hover {
 }
 
 #home .home-section__paragraph {
-    font-family: "Bona Nova SC", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1.8rem;
-    color: rgb(216, 213, 213);
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 30px;
 }
 
 #home .home-section__main-header span {
@@ -422,10 +417,6 @@ footer p {
     max-height: 21px;
 }
 
-.fas.fa-shopping-bag {
-    transform: rotate(90deg);
-}
-
 .pagination img {
     width: 100%;
     height: auto;
@@ -464,14 +455,21 @@ footer p {
     outline: none;
 }
 
-.single-product .buy-btn {
-    background-color: #fb774b;
-    opacity: 1;
-    transition: .4s all;
+.single-product .buy-btn,
+.buy-btn {
+    background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 1400% 1400%;
+    animation: rainbowStripes 5s linear infinite;
 }
 
-.single-product .buy-btn:hover {
-    background-color: #222222;
+.single-product .buy-btn:hover,
+.buy-btn:hover {
+    transform: scale(1.05);
+}
+
+@keyframes rainbowStripes {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
 
 .cart table {
@@ -982,8 +980,8 @@ button.cart-slider-section__next-slide {
 }
 
 .home-section__preface {
-    font-size: 1.2rem;
-    color: #666;
+    font-size: 2.2rem;
+    color: #f0f0f0;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -1000,38 +998,23 @@ button.cart-slider-section__next-slide {
     color: #ff6f61;
 }
 
-.home-section__paragraph {
-    font-size: 1rem;
-    line-height: 1.6;
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto 30px;
-}
-
 .home-section__button {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+    box-shadow: 0 0 10px #ffd200, 0 0 20px #f7971e inset;
     gap: 10px;
     padding: 12px 24px;
     font-size: 1rem;
-    background-color: #ff6f61;
-    color: white;
-    border: none;
     border-radius: 8px;
     cursor: pointer;
     margin: 0 auto;
 }
 
 .home-section__button:hover {
-    background-color: #ff4c3b;
-}
-
-.home-section__preface {
-    font-size: 1.2rem !important;
-    color: #ffffff !important;
-    text-align: center !important;
-    margin-bottom: 20px !important;
+    box-shadow: 0 0 20px #ffd200, 0 0 40px #f7971e inset;
+    transform: translateY(-2px);
 }
 
 .home-section__main-header {
@@ -1044,14 +1027,6 @@ button.cart-slider-section__next-slide {
 
 .home-section__main-header span {
     color: #ff6f61 !important;
-}
-
-.home-section__paragraph {
-    font-size: 1rem !important;
-    line-height: 1.6 !important;
-    text-align: center !important;
-    max-width: 700px !important;
-    margin: 0 auto 30px !important;
 }
 
 .home-section__button {
@@ -1110,6 +1085,128 @@ button.cart-slider-section__next-slide {
 
 .nav-item img:last-child {
   margin-right: 10px;
+}
+
+/* Images with Hover Effects */
+.snip1295-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.snip1295 {
+    position: relative;
+    overflow: hidden;
+    margin: 7px;
+    padding: 6px;
+    min-width: 218px;
+    max-width: 299px;
+    width: 100%;
+    box-shadow: none !important;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-box-sizing: padding-box;
+    box-sizing: padding-box;
+}
+
+.snip1295 img {
+    max-width: 100%;
+    vertical-align: top;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.snip1295 .border {
+    position: absolute;
+    opacity: 0.45;
+}
+
+.snip1295 .border:before,
+.snip1295 .border:after,
+.snip1295 .border div:before,
+.snip1295 .border div:after {
+    background-color: #f5b043;
+    position: absolute;
+    content: "";
+    display: block;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.snip1295 .border:before,
+.snip1295 .border:after {
+  width: 0;
+  height: 1px;
+}
+
+.snip1295 .border div:before,
+.snip1295 .border div:after {
+  width: 1px;
+  height: 0;
+}
+
+.snip1295 .border.one {
+  left: 0;
+  top: 0;
+  right: 12px;
+  bottom: 12px;
+}
+
+.snip1295 .border.one:before,
+.snip1295 .border.one div:before {
+  left: 0;
+  top: 0;
+}
+
+.snip1295 .border.one:after,
+.snip1295 .border.one div:after {
+  bottom: 0;
+  right: 0;
+}
+
+.snip1295 .border.two {
+  left: 12px;
+  top: 12px;
+  right: 0;
+  bottom: 0;
+}
+
+.snip1295 .border.two:before,
+.snip1295 .border.two div:before {
+  right: 0;
+  top: 0;
+}
+
+.snip1295 .border.two:after,
+.snip1295 .border.two div:after {
+  bottom: 0;
+  left: 0;
+}
+
+.snip1295 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.snip1295:hover .border:before,
+.snip1295.hover .border:before,
+.snip1295:hover .border:after,
+.snip1295.hover .border:after {
+  width: 100%;
+}
+
+.snip1295:hover .border div:before,
+.snip1295.hover .border div:before,
+.snip1295:hover .border div:after,
+.snip1295.hover .border div:after {
+  height: 100%;
+}
+
+.task-table__header-cell {
+    font-size: 0.9rem;
 }
 
 @media (max-width: 480px) {
