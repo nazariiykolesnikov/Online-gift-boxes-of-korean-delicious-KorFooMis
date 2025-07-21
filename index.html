@@ -44,8 +44,12 @@
                             <a class="nav-link" aria-current="page" href="../pages/register.php">Реєстрація</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../pages/cart.php"><img style="max-width: 30px; max-height: 30px;" src="../assets/images/basket/cart-shopping-solid.png" alt="shopping cart icon" /></a>
-                            <a href="../pages/account.php"><img style="max-width: 30px; max-height: 30px;" src="../assets/images/user_logo/user.png" alt="user account icon" /></a>
+                            <a class="link shopping-cart-page" href="../pages/cart.php">
+                                <img style="max-width: 30px; max-height: 30px;" src="../assets/images/basket/cart-shopping-solid.png" alt="shopping cart icon" />
+                            </a>
+                            <a class="link personal-account-page" href="../pages/account.php">
+                                <img style="max-width: 30px; max-height: 30px;" src="../assets/images/user_logo/user.png" alt="user account icon" />
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -63,7 +67,8 @@
                     У нас Ви можете заробляти бонуси, виконуючи добрі справи: допомагати оточуючим, беручи участь у корисних ініціативах та 
                     просто змінювати світ на краще. Ваші дії — це не лише кроки до позитивних змін, а й можливість отримати подарунки !
                 </p>
-                <button class="home-section__button">Заробити бали та отримати смачні подарунки</button>
+                <!-- Image Creator : <a href="https://www.flaticon.com/free-icons/cookies" title="cookies icons">Cookies icons created by Rabit Jes - Flaticon</a> -->
+                <button class="home-section__button"><img class="home-section__button-img" src="../assets/images/logo/cookies.png" alt="cookies gift icon" /> Заробити бали та отримати смачні подарунки</button>
             </div>
         </section>
         <section id="shoes" class="my-5">
@@ -363,53 +368,135 @@
             </div>
         </section>
         <!-- Thank You Very Much For This Great Image Slider @dwiismantoyuwono (https://codepen.io/dwiismantoyuwono) -->
+        <section>
             <div class="text-center">
                 <h3>НОВИНКИ СМАКОЛИКІВ</h3>
                 <hr class="mx-auto" />
             </div>
             <div class="snip1295-container">
-                <figure class="snip1295"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample67.jpg" alt="sample67"/>
+                <div class="snip1295-item">
+                    <figure class="snip1295"><img src="../assets/images/brands/brand_image_1.jpg" alt="sample67"/>
+                        <div class="border one">
+                            <div></div>
+                        </div>
+                        <div class="border two">
+                            <div></div>
+                        </div><a href="#"></a>
+                    </figure>
+                    <div class="snip1295-item__info">
+                        <span class="snip1295-item__text">ORION Fish Shape Cake (E) 174g x 9</span>
+                        <button class="snip1295-item__btn buy-btn"><i class="fa-solid fa-cart-plus"></i> Додати в кошик</button>
+                    </div>
+                </div>
+                <figure class="snip1295"><img src="./assets/images/brands/brand_image_2.jpg" alt="sample84"/>
                     <div class="border one">
                         <div></div>
                     </div>
                     <div class="border two">
                         <div></div>
                     </div><a href="#"></a>
+                    <div class="snip1295-item__info">
+                        <span class="snip1295-item__text">[M&F] Mini Dalgona Bundle (10 packs)</span>
+                        <button class="snip1295-item__btn buy-btn"><i class="fa-solid fa-cart-plus"></i> Додати в кошик</button>
+                    </div>
                 </figure>
-                <figure class="snip1295"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample84.jpg" alt="sample84"/>
+                <figure class="snip1295"><img src="./assets/images/brands/brand_image_3.jpg" alt="sample68"/>
                     <div class="border one">
                         <div></div>
                     </div>
                     <div class="border two">
                         <div></div>
                     </div><a href="#"></a>
+                    <div class="snip1295-item__info">
+                        <span class="snip1295-item__text">Nongshim Muktaekkang 60g</span>
+                        <button class="snip1295-item__btn buy-btn"><i class="fa-solid fa-cart-plus"></i> Додати в кошик</button>
+                    </div>
                 </figure>
-                <figure class="snip1295"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample68.jpg" alt="sample68"/>
+                <figure class="snip1295"><img src="./assets/images/brands/brand_image_4.jpg" alt="sample68"/>
                     <div class="border one">
                         <div></div>
                     </div>
                     <div class="border two">
                         <div></div>
                     </div><a href="#"></a>
+                    <div class="snip1295-item__info">
+                        <span class="snip1295-item__text">Honey Butter Dried Squid</span>
+                        <button class="snip1295-item__btn buy-btn"><i class="fa-solid fa-cart-plus"></i> Додати в кошик</button>
+                    </div>
                 </figure>
-                <figure class="snip1295"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample68.jpg" alt="sample68"/>
+                <figure class="snip1295"><img src="./assets/images/brands/brand_image_5.jpg" alt="sample68"/>
                     <div class="border one">
                         <div></div>
                     </div>
                     <div class="border two">
                         <div></div>
                     </div><a href="#"></a>
+                    <div class="snip1295-item__info">
+                        <span class="snip1295-item__text">Yopokki Snack Hot && Spacy 50g</span>
+                        <button class="snip1295-item__btn buy-btn"><i class="fa-solid fa-cart-plus"></i> Додати в кошик</button>
+                    </div>
                 </figure>
-                <figure class="snip1295"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample68.jpg" alt="sample68"/>
+                 <figure class="snip1295"><img src="./assets/images/brands/brand_image_6.jpg" alt="sample68"/>
                     <div class="border one">
                         <div></div>
                     </div>
                     <div class="border two">
                         <div></div>
                     </div><a href="#"></a>
+                    <div class="snip1295-item__info">
+                        <span class="snip1295-item__text"></span>
+                        <button class="snip1295-item__btn buy-btn"><i class="fa-solid fa-cart-plus"></i> Додати в кошик</button>
+                    </div>
+                </figure>
+                 <figure class="snip1295"><img src="./assets/images/brands/brand_image_7.jpg" alt="sample68"/>
+                    <div class="border one">
+                        <div></div>
+                    </div>
+                    <div class="border two">
+                        <div></div>
+                    </div><a href="#"></a>
+                    <div class="snip1295-item__info">
+                        <span class="snip1295-item__text"></span>
+                        <button class="snip1295-item__btn buy-btn"><i class="fa-solid fa-cart-plus"></i> Додати в кошик</button>
+                    </div>
+                </figure>
+                 <figure class="snip1295"><img src="./assets/images/brands/brand_image_8.jpg" alt="sample68"/>
+                    <div class="border one">
+                        <div></div>
+                    </div>
+                    <div class="border two">
+                        <div></div>
+                    </div><a href="#"></a>
+                    <div class="snip1295-item__info">
+                        <span class="snip1295-item__text"></span>
+                        <button class="snip1295-item__btn buy-btn"><i class="fa-solid fa-cart-plus"></i> Додати в кошик</button>
+                    </div>
+                </figure>
+                 <figure class="snip1295"><img src="./assets/images/brands/brand_image_9.jpg" alt="sample68"/>
+                    <div class="border one">
+                        <div></div>
+                    </div>
+                    <div class="border two">
+                        <div></div>
+                    </div><a href="#"></a>
+                    <div class="snip1295-item__info">
+                        <span class="snip1295-item__text"></span>
+                        <button class="snip1295-item__btn buy-btn"><i class="fa-solid fa-cart-plus"></i> Додати в кошик</button>
+                    </div>
+                </figure>
+                 <figure class="snip1295"><img src="./assets/images/brands/brand_image_10.jpg" alt="sample68"/>
+                    <div class="border one">
+                        <div></div>
+                    </div>
+                    <div class="border two">
+                        <div></div>
+                    </div><a href="#"></a>
+                    <div class="snip1295-item__info">
+                        <span class="snip1295-item__text"></span>
+                        <button class="snip1295-item__btn buy-btn"><i class="fa-solid fa-cart-plus"></i> Додати в кошик</button>
+                    </div>
                 </figure>
             </div>
-        <section>
         </section>
         <section id="new" class="w-100">
             <div>
