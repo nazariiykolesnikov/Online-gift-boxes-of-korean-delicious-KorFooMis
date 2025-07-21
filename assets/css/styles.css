@@ -1089,9 +1089,10 @@ button.cart-slider-section__next-slide {
 
 /* Images with Hover Effects */
 .snip1295-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
 .snip1295 {
@@ -1110,9 +1111,12 @@ button.cart-slider-section__next-slide {
 }
 
 .snip1295 img {
-    max-width: 100%;
     vertical-align: top;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 200px; /* або інша бажана висота */
+    object-fit: cover; /* обрізає або масштабує зображення */
+    border-radius: 10px; /* за потреби */
 }
 
 .snip1295 .border {
@@ -1203,6 +1207,39 @@ button.cart-slider-section__next-slide {
 .snip1295:hover .border div:after,
 .snip1295.hover .border div:after {
   height: 100%;
+}
+
+.snip1295-item__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-section__button-img {
+    color: white;
+    width: 40px;
+}
+
+/* Icons Hover Effect */
+.link img {
+    transition: all 0.3s linear;
+}
+
+.link:hover img {
+    transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+  .snip1295-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+    .snip1295-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 .task-table__header-cell {
@@ -1348,6 +1385,3 @@ button.cart-slider-section__next-slide {
         margin: auto;
     }
 }
-
-
-
