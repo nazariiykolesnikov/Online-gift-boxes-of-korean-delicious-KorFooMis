@@ -48,8 +48,12 @@
                             <a class="nav-link" aria-current="page" href="../pages/register.php">Реєстрація</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../pages/cart.php"><i class="fa-solid fa-truck-fast"></i></a>
-                            <a href="../pages/account.php"><i class="fas fa-user"></i></a>
+                            <a class="link shopping-cart-page" href="../pages/cart.php">
+                                <img style="max-width: 30px; max-height: 30px;" src="../assets/images/basket/cart-shopping-solid.png" alt="shopping cart icon" />
+                            </a>
+                            <a class="link personal-account-page" href="../pages/account.php">
+                                <img style="max-width: 30px; max-height: 30px;" src="../assets/images/user_logo/user.png" alt="user account icon" />
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -57,19 +61,29 @@
         </nav>
     </header>
     <main>
-        <section id="contact" class="container my-5 py-5">
-            <div class="container text-center mt-5">
-                <h3>Зв'язати з нами можна через наступні контакти :</h3>
+        <!-- Login Section -->
+        <section class="login my-5 py-5">
+            <div class="container text-center mt-3 pt-5">
+                <h2 class="form-weight-bold">Авторизуватися</h2>
                 <hr class="mx-auto" />
-                <p class="w-50 mx-auto">
-                    Номер мобільного телефону : <span>(067)-833-30-23</span>
-                </p>
-                <p class="w-50 mx-auto">
-                    Електронна скринька: <span>nazarijkolesnikov053@gmail.com</span>
-                </p>
-                <p class="w-50 mx-auto">
-                    Ми працюємо цілобово (24/7), щоб оперативно допомагати Вам
-                </p>
+            </div>
+            <div class="mx-auto container">
+                <form id="login-form">
+                    <div class="form-group">
+                        <label>Логін (Електронна скринька)</label>
+                        <input type="email" class="form-control" id="login-email" name="email" placeholder="Електронна скринька" required /> 
+                    </div>
+                    <div class="form-group">
+                        <label>Пароль</label>
+                        <input type="password" class="form-control" id="login-password" name="password" placeholder="Пароль" required /> 
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn" id="login-btn" value="Увійти" /> 
+                    </div>
+                    <div class="form-group">
+                        <a id="register-url" class="btn">Ще не маєте свого аккаунту ? Зареєструйтесь !</a>   
+                    </div>
+                </form>
             </div>
         </section>
     </main>
