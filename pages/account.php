@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <title>Home Page</title>
 <body>
-    <header>
+        <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
             <div class="container-fluid d-flex align-items-center justify-content-between flex-wrap">
                 <div class="d-flex align-items-center brand-logo">
@@ -47,8 +47,12 @@
                             <a class="nav-link" aria-current="page" href="../pages/register.php">Реєстрація</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../pages/cart.php"><i class="fa-solid fa-truck-fast"></i></a>
-                            <a href="../pages/account.php"><i class="fas fa-user"></i></a>
+                            <a class="link shopping-cart-page" href="../pages/cart.php">
+                                <img style="max-width: 30px; max-height: 30px;" src="../assets/images/basket/cart-shopping-solid.png" alt="shopping cart icon" />
+                            </a>
+                            <a class="link personal-account-page" href="../pages/account.php">
+                                <img style="max-width: 30px; max-height: 30px;" src="../assets/images/user_logo/user.png" alt="user account icon" />
+                            </a>
                         </li>
                     </ul>
                 </div>
