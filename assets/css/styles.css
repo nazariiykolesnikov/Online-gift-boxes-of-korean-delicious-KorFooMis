@@ -1222,7 +1222,9 @@ button.cart-slider-section__next-slide {
 }
 
 /* Icons Hover Effect */
+
 .link img {
+    color: transparent;
     transition: all 0.3s linear;
 }
 
